@@ -1308,7 +1308,7 @@ const Layout = ({ children }: Props) => {
                     </div>
                   </div>
                   <div className="col-7 col-lg-7 ms-md-0 ms-lg-0 ps-lg-1 pt-1">
-                    <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">sports</a>
+                    <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-2">Gaming Mis</a>
                     <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary text-decoration-none">Baseball Ball</a></h3>
                     <div title="Rated 5 out of 5">
                       <input type="text" className="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'dark', 'size':'xs'}"/>
@@ -1372,7 +1372,7 @@ const Layout = ({ children }: Props) => {
                   </div>
                   <p className="price text-5 mb-3">
                     <span className="sale text-color-dark font-weight-semi-bold">$72.90</span>
-                    <span className="amount">$39.90</span>
+                    <span className="amount">$90.90</span>
                   </p>
                 </div>
               </div>
@@ -1398,7 +1398,7 @@ const Layout = ({ children }: Props) => {
                   </div>
                   <div className="d-flex justify-content-between">
                     <div>
-                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
+                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">Gaming Mis</a>
                       <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0">
                         <a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Logitech G Pro X Superlight</a></h3>
                     </div>
@@ -1408,8 +1408,8 @@ const Layout = ({ children }: Props) => {
                     <input type="text" className="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}"/>
                   </div>
                   <p className="price text-5 mb-3">
-                    <span className="sale text-color-dark font-weight-semi-bold">$239.00</span>
-                    <span className="amount">$167.80</span>
+                    <span className="sale text-color-dark font-weight-semi-bold">$199.00</span>
+                    <span className="amount">$239.80</span>
                   </p>
                 </div>
               </div>
@@ -1445,7 +1445,7 @@ const Layout = ({ children }: Props) => {
                   </div>
                   <div className="d-flex justify-content-between">
                     <div>
-                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
+                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">Gaming Mis</a>
                       <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0">
                         <a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Logitech G502 X Plus</a>
                       </h3>
@@ -1456,8 +1456,8 @@ const Layout = ({ children }: Props) => {
                     <input type="text" className="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}"/>
                   </div>
                   <p className="price text-5 mb-3">
-                    <span className="sale text-color-dark font-weight-semi-bold">$249.00</span>
-                    <span className="amount">$199.00</span>
+                    <span className="sale text-color-dark font-weight-semi-bold">$199.00</span>
+                    <span className="amount">$249.00</span>
                   </p>
                 </div>
               </div>
@@ -1495,7 +1495,7 @@ const Layout = ({ children }: Props) => {
                   </div>
                   <p className="price text-5 mb-3">
                     <span className="sale text-color-dark font-weight-semi-bold">$229.00</span>
-                    <span className="amount">$199.90</span>
+                    <span className="amount">$250.90</span>
                   </p>
                 </div>
               </div>
@@ -1534,14 +1534,21 @@ const Layout = ({ children }: Props) => {
                   </div>
                   <p className="price text-5 mb-3">
                     <span className="sale text-color-dark font-weight-semi-bold">$119.00</span>
-                    <span className="amount">$91.08</span>
+                    <span className="amount">$130.80</span>
                   </p>
                 </div>
               </div>
 
+              
+
               <div className="col-sm-6 col-lg-4">
                 <div className="product mb-0">
                   <div className="product-thumb-info border-0 mb-3">
+
+                    <div className="product-thumb-info-badges-wrapper">
+
+{/* <span className="badge badge-ecommerce badge-danger">27% OFF</span> */}
+                    </div>
 
                     <div className="addtocart-btn-wrapper">
                       <a href="shop-cart.html" className="text-decoration-none addtocart-btn" title="Add to Cart">
@@ -1549,20 +1556,26 @@ const Layout = ({ children }: Props) => {
                       </a>
                     </div>
 
+                    {/* <div className="countdown-offer-wrapper">
+                      <div className="text-color-light negative-ls-05 text-2" data-plugin-countdown data-plugin-options="{'textDay': 'DAYS', 'textHour': 'HRS', 'textMin': 'MIN', 'textSec': 'SEC', 'date': '2023/01/01 12:00:00', 'numberClass': 'text-color-light', 'wrapperClass': 'text-color-light', 'insertHTMLbefore': '<span>OFFER ENDS IN </span>', 'textDay': 'DAYS', 'textHour': ':', 'textMin': ':', 'textSec': '', 'uppercase': true}"></div>
+                    </div> */}
+
                     <a href="ajax/shop-product-quick-view.html" className="quick-view text-uppercase font-weight-semibold text-2">
                       QUICK VIEW
                     </a>
                     <a href="shop-product-sidebar-left.html">
                       <div className="product-thumb-info-image">
-                        <img alt="" className="img-fluid" src="img/products/product-grey-6.jpg"/>
+                        <img alt="" className="img-fluid" src="products/razer-deathadder-v3-pro-faker.jpg"/>
 
                       </div>
                     </a>
                   </div>
                   <div className="d-flex justify-content-between">
                     <div>
-                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">hat</a>
-                      <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Blue Hat</a></h3>
+                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">Gaming Mis</a>
+                      <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0">
+                        <a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Razer Deathadder V3 Pro Faker Edition</a>
+                      </h3>
                     </div>
                     <a href="#" className="text-decoration-none text-color-default text-color-hover-dark text-4"><i className="far fa-heart"></i></a>
                   </div>
@@ -1570,8 +1583,8 @@ const Layout = ({ children }: Props) => {
                     <input type="text" className="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}"/>
                   </div>
                   <p className="price text-5 mb-3">
-                    <span className="sale text-color-dark font-weight-semi-bold">$299,00</span>
-                    <span className="amount">$289,00</span>
+                    <span className="sale text-color-dark font-weight-semi-bold">$223.00</span>
+                    <span className="amount">$250.00</span>
                   </p>
                 </div>
               </div>
@@ -1591,7 +1604,7 @@ const Layout = ({ children }: Props) => {
                     </a>
                     <a href="shop-product-sidebar-left.html">
                       <div className="product-thumb-info-image">
-                        <img alt="" className="img-fluid" src="img/products/product-grey-8.jpg"/>
+                        <img alt="" className="img-fluid" src="products/razer-viper-v3-hyperspeed.jpg"/>
 
                       </div>
                     </a>
@@ -1599,7 +1612,8 @@ const Layout = ({ children }: Props) => {
                   <div className="d-flex justify-content-between">
                     <div>
                       <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
-                      <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Adventurer Bag</a></h3>
+                      <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0">
+                        <a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Razer Viper V3 Hyperspeed</a></h3>
                     </div>
                     <a href="#" className="text-decoration-none text-color-default text-color-hover-dark text-4"><i className="far fa-heart"></i></a>
                   </div>
@@ -1607,8 +1621,8 @@ const Layout = ({ children }: Props) => {
                     <input type="text" className="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}"/>
                   </div>
                   <p className="price text-5 mb-3">
-                    <span className="sale text-color-dark font-weight-semi-bold">$99,00</span>
-                    <span className="amount">$79,00</span>
+                    <span className="sale text-color-dark font-weight-semi-bold">$91.00</span>
+                    <span className="amount">$100</span>
                   </p>
                 </div>
               </div>
@@ -1628,15 +1642,16 @@ const Layout = ({ children }: Props) => {
                     </a>
                     <a href="shop-product-sidebar-left.html">
                       <div className="product-thumb-info-image">
-                        <img alt="" className="img-fluid" src="img/products/product-grey-9.jpg"/>
+                        <img alt="" className="img-fluid" src="products/cooler-master-mm712.jpg"/>
 
                       </div>
                     </a>
                   </div>
                   <div className="d-flex justify-content-between">
                     <div>
-                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">sports</a>
-                      <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0"><a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Baseball Ball</a></h3>
+                      <a href="#" className="d-block text-uppercase text-decoration-none text-color-default text-color-hover-primary line-height-1 text-0 mb-1">accessories</a>
+                      <h3 className="text-3-5 font-weight-medium font-alternative text-transform-none line-height-3 mb-0">
+                        <a href="shop-product-sidebar-right.html" className="text-color-dark text-color-hover-primary">Cooler Master MM712</a></h3>
                     </div>
                     <a href="#" className="text-decoration-none text-color-default text-color-hover-dark text-4"><i className="far fa-heart"></i></a>
                   </div>
@@ -1644,8 +1659,8 @@ const Layout = ({ children }: Props) => {
                     <input type="text" className="d-none" value="5" title="" data-plugin-star-rating data-plugin-options="{'displayOnly': true, 'color': 'default', 'size':'xs'}"/>
                   </div>
                   <p className="price text-5 mb-3">
-                    <span className="sale text-color-dark font-weight-semi-bold">$399,00</span>
-                    <span className="amount">$299,00</span>
+                    <span className="sale text-color-dark font-weight-semi-bold">$92.00</span>
+                    <span className="amount">$100</span>
                   </p>
                 </div>
               </div>
